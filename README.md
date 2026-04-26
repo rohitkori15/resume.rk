@@ -6,11 +6,6 @@
 📞 **Phone:** +91 9109589853
 🔗 **LinkedIn:** https://www.linkedin.com/in/rohit-kori-59132a171/
 
-![Profile Views](https://komarev.com/ghpvc/?username=your-github-username\&color=blue)
-![GitHub followers](https://img.shields.io/github/followers/your-github-username?label=Follow\&style=social)
-
----
-
 ## 🧑‍💼 About Me
 
 🏭 Food Process Engineer with hands-on experience in **Production, Operations & Manufacturing**
@@ -35,7 +30,7 @@
 
 ### 🏢 MARICO INDIA LIMITED (Client Site)
 
-Associate – Production | Feb 2026 - Now
+Associate – Production - Feb 2026 - Now
 
 * Managing production planning and control (PPC) to ensure smooth execution and target achievement
 * Handling end-to-end operations across manufacturing lines with focus on efficiency and output optimisation
@@ -48,7 +43,7 @@ Associate – Production | Feb 2026 - Now
 
 ### 🏢 Paras Spices Pvt. Ltd., Moga
 
-Executive – Production | Nov 2025 - Feb 2026
+Executive – Production - Nov 2025 - Feb 2026
 
 * Responsible for end-to-end production operations across 35+ sections in spices processing
 * Working as Shift In-Charge (planning, line balancing, SOP compliance)
@@ -59,7 +54,7 @@ Executive – Production | Nov 2025 - Feb 2026
 
 ### 🏢 KRBL Limited, Sonipat
 
-Officer – Production | Sep 2024 – Nov 2025
+Officer – Production - Sep 2024 – Nov 2025
 
 * Production planning with RM & PM coordination
 * Responsible for food safety, packaging and plant operations
@@ -72,7 +67,7 @@ Officer – Production | Sep 2024 – Nov 2025
 
 ### 🏢 DRB Foods Pvt. Ltd., Delhi
 
-Intern – QA/QC | Aug 2023 - Nov 2023
+Intern – QA/QC - Aug 2023 - Nov 2023
 
 * Reduced defects and improved quality compliance
 * Conducted internal audits
@@ -82,8 +77,8 @@ Intern – QA/QC | Aug 2023 - Nov 2023
 
 ### 🏢 Daawat Foods Ltd. (LT Foods), Bhopal
 
-**Quality Control Analyst | Apr 2022 – Aug 2022**
-**Trainee – Quality Control | Sep 2021 – Nov 2021**
+**Quality Control Analyst - Apr 2022 – Aug 2022**
+**Trainee – Quality Control - Sep 2021 – Nov 2021**
 
 * Packaging and quality compliance
 * Process monitoring and wastage reduction
