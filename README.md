@@ -8,15 +8,11 @@
 
 ## 🧑‍💼 About Me
 
-🏭 Food Process Engineer with hands-on experience in **Production, Operations & Manufacturing**
-
-⚙️ Strong in **Production Planning & Control (PPC)**
-
-👨‍🏭 Managing **shopfloor operations & manpower**
-
-🔄 Experienced in **cross-functional coordination (Quality, Maintenance, Supply Chain, Audit)**
-
-📊 Focused on **efficiency, compliance & process improvement**
+* 🏭 Food Process Engineer with hands-on experience in **Production, Operations & Manufacturing**
+* ⚙️ Strong in **Production Planning & Control (PPC)**
+* 👨‍🏭 Managing **shopfloor operations & manpower**
+* 🔄 Experienced in **cross-functional coordination (Quality, Maintenance, Supply Chain, Audit)**
+* 📊 Focused on **efficiency, compliance & process improvement**
 
 ---
 
