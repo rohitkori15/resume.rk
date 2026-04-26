@@ -6,20 +6,21 @@
 <title>Rohit Kori | Portfolio</title>
 
 <style>
-* { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI'; }
+* { margin:0; padding:0; box-sizing:border-box; font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                         Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
 body { background:#f4f7fb; color:#333; scroll-behavior:smooth; }
 
 /* NAV */
 nav {
   position:fixed; width:100%; background:#003a8f; color:white;
-  padding:15px 50px; display:flex; justify-content:space-between;
+  padding:1px 50px; display:flex; justify-content:space-between;
 }
-nav ul { display:flex; gap:20px; list-style:none; }
+nav ul { display:flex; gap:10px; list-style:none; }
 nav a { color:white; text-decoration:none; }
 
 /* HERO */
 .hero {
-  height:100vh;
+  height:30vh;
   background:linear-gradient(135deg,#003a8f,#005be0);
   color:white; display:flex; justify-content:center;
   align-items:center; flex-direction:column;
@@ -27,7 +28,7 @@ nav a { color:white; text-decoration:none; }
 
 /* SECTION */
 section {
-  padding:80px 60px;
+  padding:30px 40px;
   max-width:1100px;
   margin:auto;
 }
@@ -37,6 +38,56 @@ h2 {
   border-left:5px solid #005be0;
   padding-left:10px;
   margin-bottom:20px;
+  
+}
+
+
+h3 {
+  color: #228B22;
+  border-left:2px solid #228B22;
+  padding-left:10px;
+  margin-bottom:5px;
+  margin-top:20px;
+}
+.edu-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.donut {
+  --size: 150px;
+  --thickness: 20px;
+  width: var(--size);
+  height: var(--size);
+  margin: 10px auto;
+  border-radius: 60%;
+  background: conic-gradient(
+    #005be0 calc(var(--value) * 1%),
+    #e6ecf5 0
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.donut::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - var(--thickness)*2);
+  height: calc(100% - var(--thickness)*2);
+  background: white;
+  border-radius: 50%;
+}
+/* DONUT*/
+.donut span {
+  position: relative;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #003a8f;
 }
 
 /* GRID */
@@ -59,46 +110,7 @@ h2 {
   color:white;
   text-align:center;
 }
-.edu-card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-/* Donut */
-.donut {
-  --size: 120px;
-  --thickness: 12px;
-  width: var(--size);
-  height: var(--size);
-  margin: 20px auto;
-  border-radius: 50%;
-  background: conic-gradient(
-    #005be0 calc(var(--value) * 1%),
-    #e6ecf5 0
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
 
-.donut::before {
-  content: "";
-  position: absolute;
-  width: calc(100% - var(--thickness)*2);
-  height: calc(100% - var(--thickness)*2);
-  background: white;
-  border-radius: 50%;
-}
-
-.donut span {
-  position: relative;
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #003a8f;
-}
 /* FOOTER */
 footer {
   text-align:center;
@@ -131,29 +143,89 @@ footer {
 <p>
 I aim to secure a challenging role in the Food Manufacturing Industry, where I can utilize my skills in Food Processing while contributing to the growth and success of the organization. Eager to continuously learn and develop within a dynamic work environment.
 </p>
-</section>
 
+</section>
+  <!-- Education -->
+ <!-- Education Journey -->
 <section id="education">
-<h2>Educational Background</h2>
+  <h2>Education Journey</h2>
 
-  <div class="edu-card">
-  <h3>M.Tech – NIFTEM</h3>
-  <div class="donut" style="--value:81.6">
-    <span>8.16</span>
+  <!-- School -->
+  <div class="edu-row">
+    <div class="edu-text">
+      <h3>🏫 School Years (2005 – 2016)</h3>
+      <p><em>Fascination: Curiosity & Exploration</em></p>
+      <ul>
+        <li>Won Interclass Game competitions</li>
+        <li>Race – 1st position</li>
+        <li>Cricket – Second highest scorer</li>
+        <li>Awarded <strong>Medhavi Chatra</strong> recognition</li>
+        <li>Received <strong>Medhavi Scholarship</strong> from MP Govt. (₹25,000 prize)</li>
+        <li>Second highest mark scorer in both 11th (2017) and 12th (2018)</li>
+        <li>10th <strong>85.5% </strong> & 12th <strong> 85% </strong> 
+</li>
+
+      </ul>
+      <p>Schooling medium: <strong> Hindi</strong><br>
+      Favorite subject: <strong> Hindi</strong> <br>
+      Most interesting class: <strong> Physics — </strong>loved exploring physics and engineering concepts.</p>
+    </div>
+    
   </div>
-</div>
 
-<div class="edu-card">
-  <h3>B.Tech – AKS University</h3>
-  <div class="donut" style="--value:76.9">
-    <span>7.69</span>
+  <!-- College -->
+  <div class="edu-row reverse">
+    <div class="edu-text">
+      <h3>🎓 B.Tech in Food Technology (2016 – 2022)</h3>
+      <p><em>Fascination: Innovation</em></p>
+      
+      <div class="donut" style="--value:76.9">
+      <span>7.69</span>
+    </div>
+    <p>CGPA (10 Scale)</p>
   </div>
-</div>
+      
+      <ul>
+        <li>Explored food process engineering and safety standards</li>
+        <li>Applied theory into practical projects and internships</li>
+      </ul>
+      <p>Developed a passion for combining physics principles with engineering applications in food technology.</p>
+    </div>
 
-</section>
+
+  <!-- Master’s -->
+  <div class="edu-row">
+    <div class="edu-text">
+      <h3>🚆 M.Tech in Food Process Engineering and Management, NIFTEM Kundli (2022 – 2024)</h3>
+      <p><em>Fascination: Leadership</em></p>
+      
+      <div class="donut" style="--value:81.6">
+      <span>8.16<span>
+            </span></span>
+    </div>
+    <p>CGPA (10 Scale)</p>
+  </div>
+      
+      <ul>
+        <li>Specialized in advanced food technology and research</li>
+        <li>Applied AI/ML in food processing for forecasting and automation</li>
+        <li>Focused on sustainability and regulatory compliance</li>
+      </ul>
+      <p>Strengthened leadership skills and deepened expertise in innovation and process optimization.</p>
+    </div>
+   
+
+  
 
 <section id="experience">
 <h2>Job Experience</h2>
+
+  <!-- PARAS -->
+  <div class="exp-row reverse">
+    <div class="exp-image">
+      <img src="MARICO" alt="MARICO INDIA LIMITED"
+    </div>
+    <div class="exp-text">
 
 <h3>MARICO INDIA LIMITED - (CLIENT SITE)</h3>
 <p>Associate – Production | Feb 2026 - Now</p>
@@ -166,6 +238,14 @@ I aim to secure a challenging role in the Food Manufacturing Industry, where I c
 <li>Working in a role similar to a mini manager, handling operations, manpower, and decision-making on the shop floor</li>
 </ul>
 
+
+  <!-- PARAS -->
+  <div class="exp-row reverse">
+    <div class="exp-image">
+      <img src="pspl" alt="PSPL">
+    </div>
+    <div class="exp-text">
+
 <h3>Paras Spices Pvt. Ltd., Moga, Punjab</h3>
 <p>Executive – Production | Nov 2025 - Feb 2026</p>
 <ul>
@@ -175,42 +255,143 @@ I aim to secure a challenging role in the Food Manufacturing Industry, where I c
 <li>Implementing GMP, GHP, hygiene standards, and actively supporting internal and external audits.</li>
 </ul>
 
-<h3>KRBL Limited, Sonipat, Haryana</h3>
-<p>Officer - Production | Sep 2024 – Nov 2025</p>
-<ul>
-<li>Coordinated production planning with RM & PM availability, Managing manpower efficiently</li>
-<li>Responsible for food safety, quality of product, packaging and plant safety</li>
-<li>Conducted gap analysis and developed improvement plans, enhancing process efficiency.</li>
-<li>Monitored key performance indicators (KPIs) and initiated corrective action.</li>
-<li>Executed food safety initiatives, boosting quality compliance.</li>
-<li>Development of daily Production Reports, Monitoring HACCP Compliances (CCPs & PRPs)</li>
-<li>Successfully completing 350 MT/day production in independent 25MT/hr capacity plants</li>
-<li>Led 5S, GMP, and autonomous maintenance implementation for streamlined operations.</li>
-</ul>
 
-<h3>DRB Foods Pvt. Ltd., Delhi</h3>
-<p>Intern - Quality Control and Assurance | Aug 2023 - Nov 2023</p>
-<ul>
-<li>Monitored defective generation and manufacturing abnormalities to minimize product rejections</li>
-<li>Conducted internal audits</li>
-<li>Oversaw artwork and labelling compliance</li>
-</ul>
 
-<h3>Daawat Foods Ltd. (LT Foods), Bhopal</h3>
-<p>Quality Control Analyst | April 2022 – Aug 2022</p>
-<ul>
+
+  <!-- KRBL Limited -->
+  <div class="exp-row reverse">
+    <div class="exp-image">
+      <img src="krbl.jpg" alt="KRBL Limited">
+    </div>
+    <div class="exp-text">
+      <h3>KRBL Limited, Sonipat</h3>
+      <p><strong>Management Trainee</strong><br>September 2024 – December 2024</p>
+      <p><strong>Officer – Production</strong><br>January 2025 – November 2025</p>
+      <ul>
+        <li>Oversaw high‑pace production of 350+ tons/day.</li>
+        <li>Managed manpower, planning, and coordination of maintenance activities.</li>
+        <li>Responsible for packaging and production operations.</li>
+        <li>Implemented efficiency improvements and reduced downtime.</li>
+      </ul>
+    </div>
+  </div>
+
+
+ <!-- DRBs Food -->
+  <div class="exp-row reverse">
+    <div class="exp-image">
+      <img src="drbs.jpg" alt="DRBs Food">
+    </div>
+    <div class="exp-text">
+      <h3>DRB Food Pvt. Ltd., Delhi</h3>
+      <p><strong>Intern – Quality Assurance & Control</strong><br>Aug 2023- Nov 2023
+      <ul>
+        <li>Worked in QA/QC department ensuring compliance with standards.</li>
+        <li>Performed microbiological and chemical testing of food products.</li>
+        <li>Contributed to documentation and reporting for audits.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- Daawat Foods Ltd -->
+  <div class="exp-row">
+    <div class="exp-image">
+      <img src="daawat.jpg" alt="Daawat Foods Ltd">
+    </div>
+    <div class="exp-text">
+      <h3>Daawat Foods Ltd. (LT FOODS), Bhopal</h3>
+      <p><strong>Quality Control Analyst – Trainee</strong><br>April 2022 – August 2022</p>
+      <ul>
+
+
 <li>Evaluated packaging abilities to meet regulatory requirements</li>
 <li>Oversaw loading operations and container analysis</li>
 <li>Coordinated with production team to resolve issues</li>
 </ul>
 
-<p>Trainee – Quality Control | Sep 2021 – Nov 2021</p>
+<p><strong>Trainee – Quality Control</strong><br>Sep 2021 – Nov 2021</p>
+
 <ul>
 <li>Ensured quality control measures throughout rice production</li>
 <li>Evaluated quality parameters for Fast Cooking Brown Rice</li>
 </ul>
 
-</section>
+</Section>
+
+
+ <!-- Skills -->
+  <section id="skills" class="fade-in">
+    <h2>Skills</h2>
+    <div class="card-grid">
+      <div class="card"><h3>🏭 Technical</h3><p>Food Safety, HACCP, ISO 22000</p></div>
+      <div class="card"><h3>📊 Analytical</h3><p>Data Analysis, AI/ML, Lean Manufacturing</p></div>
+      <div class="card"><h3>🤝 Professional</h3><p>Project Management, Communication</p></div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="fade-in">
+    <h2>Certifications</h2>
+    <div class="card-grid">
+      <div class="card"><h3>ISO 22000:2018</h3><p>Food Safety Management</p></div>
+      <div class="card"><h3>Lean Six Sigma Green Belt</h3><p>Process Improvement</p></div>
+      <div class="card"><h3>AI/ML Workshop</h3><p>NIFTEM, 2023</p></div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="fade-in">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Best Research Paper Award – NIFTEM (2023)</li>
+      <li>Process Optimization Project – Reduced waste by 15%</li>
+      <li>Leadership Recognition – Student Council</li>
+      <li>Innovation Challenge Winner – Eco-friendly packaging</li>
+    </ul>
+  </section>
+
+  <!-- Languages -->
+  <section id="languages" class="fade-in">
+    <h2>Languages Known</h2>
+    <div class="card-grid">
+      <div class="card">🇮🇳 Hindi<br><small>Native</small></div>
+      <div class="card">🌍 English<br><small>Professional</small></div>
+      <div class="card">🎨 Bagheli<br><small>Conversational</small></div>
+      <div class="card">🥁 Punjabi<br><small>Native</small></div>
+      <div class="card">🐂 Haryanvi<br><small>Conversational</small></div>
+    </div>
+  </section>
+
+  <!-- Interests -->
+  <section id="interests" class="fade-in">
+    <h2>Interests & Focus</h2>
+    <div class="card-grid">
+      <div class="card">⚡ Electrical & Process Engineering</div>
+      <div class="card">💻 Coding & Animation</div>
+      <div class="card">🤖 Artificial Intelligence</div>
+      <div class="card">📊 Dashboards & Data Presentation</div>
+    </div>
+  </section>
+
+  <!-- JS for animations -->
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => { appearOnScroll.observe(fader); });
+  </script>
+</body>
+</html>
+
+
 
 <section id="skills">
 <h2>Skills</h2>
@@ -228,10 +409,10 @@ I aim to secure a challenging role in the Food Manufacturing Industry, where I c
 <h2>Operations Dashboard</h2>
 
 <div class="grid">
-<div class="card kpi"><h3 class="counter" data-target="350">0</h3><p>MT/Day</p></div>
-<div class="card kpi"><h3 class="counter" data-target="300">0</h3><p>Manpower</p></div>
-<div class="card kpi"><h3 class="counter" data-target="35">0</h3><p>Sections</p></div>
-<div class="card kpi"><h3 class="counter" data-target="95">0</h3><p>Efficiency</p></div>
+<div class="card kpi"><h4 class="counter" data-target="350">0</h4><p>MT/Day</p></div>
+<div class="card kpi"><h4 class="counter" data-target="300">0</h4><p>Manpower</p></div>
+<div class="card kpi"><h4 class="counter" data-target="35">0</h><p>Sections</p></div>
+<div class="card kpi"><h4 class="counter" data-target="95">0</h3><p>Efficiency</p></div>
 </div>
 
 </section>
